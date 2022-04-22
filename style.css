@@ -92,6 +92,7 @@ p{
   }
 
   li{
+    padding: 20px;
     display: flex-inline;
     margin-top: 25px;
     background-color: Gainsboro;
