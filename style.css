@@ -2,6 +2,7 @@ body{
   font-size: 20px;
   font-family: sans-serif;
   padding: 40px;
+  background-color: azure;
 }
 
 h1{
@@ -12,7 +13,7 @@ h1{
 h2{
   font-size: 1.5em;
   padding-top: 1em;
-  border-top: 2px solid rgb(112, 116, 118);
+  border-top: 2px solid lightgrey;
 }
 
 h3{
@@ -27,10 +28,9 @@ h4{
   font-weight: bold;
 }
 
-//c
 form{
-  background-color: rgb(233, 239, 245);
-  border: 2px solid #ddd;
+  background-color: CornflowerBlue;
+  border: 5px solid GhostWhite;
   padding: 20px;
 }
 
@@ -48,14 +48,12 @@ button, input{
   padding: 5px;
 }
 
-//c
 button{
   cursor: pointer;
-  background-color: cornflowerblue;
+  background-color:  dimgray ;
   color: whitesmoke;
 }
 
-//
 button:hover{
   background-color: lightgray;
   color: black;
@@ -93,9 +91,8 @@ p{
   pointer-events: none;
   }
 
-  //
   li{
-      background-color: rgb(233, 239, 245);
-      display: flex-inline;
-      margin-top: 20px;
+    display: flex-inline;
+    margin-top: 25px;
+    background-color: Gainsboro;
   }
