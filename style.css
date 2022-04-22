@@ -1,25 +1,101 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+body{
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+h1{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+//color
+h2{
+  font-size: 1.5em;
+  padding-top: 1em;
+  border-top: 2px solid rgb(112, 116, 118);
+}
+
+h3{
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+//
+h4{
+  padding: 15px;
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+//c
+form{
+  background-color: rgb(233, 239, 245);
+  border: 2px solid #ddd;
+  padding: 20px;
+}
+
+label, input, button{
+  display: block;
+  margin-bottom: 20px;
+}
+
+input{
+  width: 100%;
+}
+
+button, input{
+  font-size: 1em;
+  padding: 5px;
+}
+
+//c
+button{
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+
+//
+button:hover{
+  background-color: lightgray;
+  color: black;
+}
+
+.date{
+  font-style: italic;
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+#result{
+  display: grid;
+  grid-template-columns: 400px auto;
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+
+#result img{
+  width: 100%;
+}
+
+#hdimage img{
+  width: 70%;
+  height: auto;
+  transform: translate(10%, 10%,10%);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hidden{
+  display: none;
+  pointer-events: none;
   }
-  
-  .container {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .picture-explanation-container {
-    display: flex;
-  }
-  
-  #picture {
-    width: 50%;
-    margin-right: 1rem;
-  }
-  
-  #explanation {
-    letter-spacing: 0px;
-    line-height: 20px;
+
+  //
+  li{
+      background-color: rgb(233, 239, 245);
+      display: flex-inline;
+      margin-top: 20px;
   }
